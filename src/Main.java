@@ -25,6 +25,14 @@ public class Main {
         System.out.println(futur.getYear());
         System.out.println(present.getYear());
 
+        int[] tab  = new int[5];
+        System.out.println(tab.length);
+
+        int i = 130;
+        byte b = (byte)i;
+        System.out.println(b);
+    }
+
 
         System.out.println(present.getDayOfYear()); // compte le nombre de jours depuis le premier janvier dans l'annee
 
